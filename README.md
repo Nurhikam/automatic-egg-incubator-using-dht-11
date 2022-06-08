@@ -1,8 +1,8 @@
 # ALAT PENETAS TELUR OTOMATIS MENGGUNAKAN SENSOR DHT11
 
-#@ Latar Belakang
-  Alat penetas telur merupakan alat yang digunakan di peternakan atau di perusahaan untuk menetaskan beberapa telur secara bersamaan. Alat tersebut digunakan untuk mempertahankan suhu ruangan tempat telur ditetaskan untuk mencegah resiko terjadinya telur yang gagal menetas. Pada alat penetas telur terdapat dua hal yang perlu dijaga yaitu suhu dan kelembaban udara. Oleh karena itu pada sistem ini digunakan lampu bohlam untuk menghasilkan panas yang dapat menghangatkan telur.
-  Akan tetapi, alat penetas telur biasa memiliki kekurangan yaitu perlu dinyala-matikan secara manual. Hal tersebut terbilang kurang efektif dikarenakan suhu dan kelembaban di sekitar tempat telur dapat berubah tak beraturan. Perubahan yang tak menentu tersebut dapat mempengaruhi telur yang sedang ditetaskan baik berupa suhu yang terlalu tinggi maupun kelembaban yang terlalu rendah.
+## Latar Belakang
+	Alat penetas telur merupakan alat yang digunakan di peternakan atau di perusahaan untuk menetaskan beberapa telur secara bersamaan. Alat tersebut digunakan untuk mempertahankan suhu ruangan tempat telur ditetaskan untuk mencegah resiko terjadinya telur yang gagal menetas. Pada alat penetas telur terdapat dua hal yang perlu dijaga yaitu suhu dan kelembaban udara. Oleh karena itu pada sistem ini digunakan lampu bohlam untuk menghasilkan panas yang dapat menghangatkan telur.
+	Akan tetapi, alat penetas telur biasa memiliki kekurangan yaitu perlu dinyala-matikan secara manual. Hal tersebut terbilang kurang efektif dikarenakan suhu dan kelembaban di sekitar tempat telur dapat berubah tak beraturan. Perubahan yang tak menentu tersebut dapat mempengaruhi telur yang sedang ditetaskan baik berupa suhu yang terlalu tinggi maupun kelembaban yang terlalu rendah.
   
 ## Solusi
   Berdasarkan masalah dari latar belakang, maka dibuatlah alat yang dapat mengontrol nyala lampu bohlam berdasarkan suhu dan kelembaban ruangan yang didapat menggunakan sensor DHT11. Nantinya suhu dan kelembaban yang didapat dari sensor akan diproses di mikrokontroler untuk memproses data yang didapat dan menentukan apakah lampu bohlam akan menyala atau mati. 
