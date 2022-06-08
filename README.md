@@ -17,12 +17,14 @@ Setiap elemen pada sensos DHT11 dirancang secara ketat dan akurat pada kalibrasi
 
 ### Spesifikasi sensor DHT 11:
 - Suhu
+
 	Resolusi pengukuran : 16 bit
 	Rentang pengukuran suhu udara : 0° – 50° C 
 	Akurasi : ±2° C 
 	Waktu respon : 1/e (63%) 10 detik
 
 - Kelembaban
+
 	Resolusi pengukuran : 16 bit
 	Rentang pengukuran kelembaban udara : 20% - 90% RH
 	Akurasi : ± 5% 
