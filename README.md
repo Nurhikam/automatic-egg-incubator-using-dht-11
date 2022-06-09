@@ -10,9 +10,9 @@ Berdasarkan masalah dari latar belakang, maka dibuatlah alat yang dapat mengontr
 ## Analisis dan Pembahasan 
 Sensor DHT11 merupakan sensor yang berfungsi dalam mengatur 2 parameter lingkungan sekaligus, yaitu suhu dan kelembaban udara, yang didalamnya terdapat thermistor tipe NTC (Negative Temperature Coefficient) yang berfungsi dalam mengukur suhu dan merupakan sebuah sensor kelembaban tipe resistif dan mikrokontroller 8-bit yang mengolah kedua sensor tersebut dan mengirimnya ke pin output dengan format single-wire-bi-directional (kabel tunggal dua arah).
 
-![alt text](https://images.app.goo.gl/RigqSg7RTpwMCvrS7/to/img.png)
+Gambar Sensor DHT11:
 
-Gambar 1 Sensor DHT11
+![Gambar Sensor DHT11](https://user-images.githubusercontent.com/92198564/172817137-b307f74d-293f-49ac-abcf-f7740653f4aa.png)
 
 Setiap elemen pada sensos DHT11 dirancang secara ketat dan akurat pada kalibrasi kelembaban (humidity). Koefisien kalibrasi disimpan sebagai program pada memori OTP, yang digunakan dalam proses pendeteksian sinyal internal sensor. Single-Wire serial interface membuat sistem integrasi menjadi lebih cepat dan mudah. Ukurannya yang kecil dan konsumsi dayanya yang rendah (hingga 20 meter sinyal transmisi) membuat sensor DHT11 menjadi sensor yang memiliki tingkat efisiensi dan akurasi yang cukup baik. Sensor ini memiliki 4 kaki, yaitu pin VCC, Data, NC, dan GND.
 
@@ -33,8 +33,8 @@ Setiap elemen pada sensos DHT11 dirancang secara ketat dan akurat pada kalibrasi
 
 Sensor DHT 11 digunakan untuk membaca suhu dan temperature udara didalam incubator pemanasan, dimana saat mesin bekerja akan terjadi proses pemanasan di dalam incubator yang pada suhu tertentu akan dibaca oleh sensor DHT11 untuk menghidupkan komponen yang dihubungkan dengan sensor tersebut. Dengan stabilitas yang baik, sensor ini dapat melakukan pembacaan suhu dan kelembaban yang tepat. Komponen pada sensor DHT11 memiliki peran yang penting dalam pengukuran suhu dan kelembaban untuk menghasilkan data yang akurat dalam pengontrolan mesin penetas otomatis. 
 
- 
-Gambar 2 Rangakaian Alat Penetas dengan sensor DHT11
+Gambar 2. Rangakaian Alat Penetas dengan sensor DHT11:
+
 
 Saat alat dinyalakan, maka heater (pemanas) pada incubator akan menyala secara otomatis hingga batas /rentang yang diinginkan. Sensor DHT11 akan mendeteksi suhu batas pada incubator. Apabila suhu melewati suhu batas atas, maka heater akan mati dan blower akan menyala, namun jika suhu dideteksi melewati batas bawah maka heater akan tetap menyala dan blower akan mati, hal ini bertujuan untuk menjaga suhu agar tetap sesuai dengan incubator.
 Spesifikasi mesin penetas : 
