@@ -53,3 +53,10 @@ Lenty Marwani, N. D. (2017). PENGGUNAAN SENSOR DHT11 SEBAGAI INDIKATOR SUHU DAN 
                               file:///C:/Users/user/Downloads/142-192-569-1-10-20180110%20(1).pdf
 Saptadi, A. H. (2014). Perbandingan Akurasi Pengukuran Suhu dan Kelembaban       Antara Sensor DHT11 dan DHT22. 2-6.
  https://ejournal.st3telkom.ac.id/index.php/infotel/article/view/16/17
+
+## Lampiran
+-- GAMBAR WIRING PENETAS TELUR OTOMATIS
+![Wiring Automatic Incubator Project](https://user-images.githubusercontent.com/92198564/172821988-e79e3e9d-40fb-42f5-bd8c-34dda7e20054.jpg)
+
+LINK VIDEO DEMO ALAT PENETAS TELUR OTOMATIS
+https://youtu.be/REtbFbTDfRA
