@@ -8,13 +8,13 @@ Akan tetapi, alat penetas telur biasa memiliki kekurangan yaitu perlu dinyala-ma
 Berdasarkan masalah dari latar belakang, maka dibuatlah alat yang dapat mengontrol nyala lampu bohlam berdasarkan suhu dan kelembaban ruangan yang didapat menggunakan sensor DHT11. Nantinya suhu dan kelembaban yang didapat dari sensor akan diproses di mikrokontroler untuk memproses data yang didapat dan menentukan apakah lampu bohlam akan menyala atau mati. 
 
 ## ANALISIS 
-Sensor DHT11 merupakan sensor yang berfungsi dalam mengatur 2 parameter lingkungan sekaligus, yaitu suhu dan kelembaban udara, yang didalamnya terdapat thermistor tipe NTC _(Negative Temperature Coefficient)_ yang berfungsi dalam mengukur suhu dan merupakan sebuah sensor kelembaban tipe resistif dan mikrokontroller 8-bit yang mengolah kedua sensor tersebut dan mengirimnya ke pin output dengan format single-wire-bi-directional (kabel tunggal dua arah).
+Project ini menggunakan Sensor DHT11 yang bisa mengatur 2 parameter lingkungan sekaligus, yaitu suhu dan kelembaban udara. Didalam sensor terdapat thermistor tipe _NTC (Negative Temperature Coefficient)_ yang berfungsi dalam mengukur suhu dan merupakan sebuah sensor kelembaban tipe resistif dan mikrokontroller 8-bit yang mengolah kedua sensor tersebut dan mengirimnya ke pin output dengan format _single-wire-bi-directional_ (kabel tunggal dua arah).
 
-#### Gambar Sensor DHT11:
+Setiap elemen pada sensor DHT11 dirancang secara ketat dan akurat pada kalibrasi kelembaban (humidity). Koefisien kalibrasi disimpan sebagai program pada memori OTP, yang digunakan dalam proses pendeteksian sinyal internal sensor. Single-Wire serial interface membuat sistem integrasi menjadi lebih cepat dan mudah. Ukurannya yang kecil dan konsumsi dayanya yang rendah (hingga 20 meter sinyal transmisi) membuat sensor DHT11 menjadi sensor yang memiliki tingkat efisiensi dan akurasi yang cukup baik. Sensor ini memiliki 4 kaki, yaitu pin VCC, Data, NC, dan GND.
+##### Gambar Sensor DHT11:
 
 ![Gambar Sensor DHT11](https://user-images.githubusercontent.com/92198564/172817137-b307f74d-293f-49ac-abcf-f7740653f4aa.png)
 
-Setiap elemen pada sensos DHT11 dirancang secara ketat dan akurat pada kalibrasi kelembaban (humidity). Koefisien kalibrasi disimpan sebagai program pada memori OTP, yang digunakan dalam proses pendeteksian sinyal internal sensor. Single-Wire serial interface membuat sistem integrasi menjadi lebih cepat dan mudah. Ukurannya yang kecil dan konsumsi dayanya yang rendah (hingga 20 meter sinyal transmisi) membuat sensor DHT11 menjadi sensor yang memiliki tingkat efisiensi dan akurasi yang cukup baik. Sensor ini memiliki 4 kaki, yaitu pin VCC, Data, NC, dan GND.
 
 ### Spesifikasi sensor DHT 11:
 #### Suhu
@@ -37,13 +37,15 @@ Setiap elemen pada sensos DHT11 dirancang secara ketat dan akurat pada kalibrasi
 	
 	4. Waktu respon : 1 / e (63%) of  25ºC 6 detik
 
+### Aplikasi Sensor DHT-11 pada Alat Penetas Telur Otomatis
 Sensor DHT 11 digunakan untuk membaca suhu dan temperature udara didalam incubator pemanasan, dimana saat mesin bekerja akan terjadi proses pemanasan di dalam incubator yang pada suhu tertentu akan dibaca oleh sensor DHT11 untuk menghidupkan komponen yang dihubungkan dengan sensor tersebut. Dengan stabilitas yang baik, sensor ini dapat melakukan pembacaan suhu dan kelembaban yang tepat. Komponen pada sensor DHT11 memiliki peran yang penting dalam pengukuran suhu dan kelembaban untuk menghasilkan data yang akurat dalam pengontrolan mesin penetas otomatis. 
 
-Saat alat dinyalakan, maka heater (pemanas) pada incubator akan menyala secara otomatis hingga batas /rentang yang diinginkan. Sensor DHT11 akan mendeteksi suhu batas pada incubator. Apabila suhu melewati suhu batas atas, maka heater akan mati dan blower akan menyala, namun jika suhu dideteksi melewati batas bawah maka heater akan tetap menyala dan blower akan mati, hal ini bertujuan untuk menjaga suhu agar tetap sesuai dengan incubator.
-
-### Spesifikasi alat penetas telur otomatis: 
+### Spesifikasi Alat Penetas Telur Otomatis
 1. Sistem dapat memantau dan membaca suhu dan kelembaban dalam inkobator yang akan ditampilkan pada LCD. Sensor DHT11 ditempatkan di sekitar incubator untuk membaca suhu dan kelembaban pada incubator.
 2. Sistem dapat menjaga suhu dalam incubator sesuai suhu dan kelembaban yang diinginkan dan apabila melewati batas suhu, sistem juga dapat mengendalikan mati dan nyalanya heater yang berfungsi sebagi pemanas pada incubator dan blower sebagai penetral suhu apabila melewati batas atas.
+
+### Cara Kerja Alat Penetas Telur Otomatis
+Saat alat dinyalakan, maka heater (pemanas) pada incubator akan menyala secara otomatis hingga batas /rentang yang diinginkan. Sensor DHT11 akan mendeteksi suhu batas pada incubator. Apabila suhu melewati suhu batas atas yaitu sebesar 33°C atau lebih, maka heater akan mati dan blower akan menyala, namun jika suhu dideteksi melewati batas bawah yaitu 32°C maka heater akan tetap menyala dan blower akan mati, hal ini bertujuan untuk menjaga suhu agar tetap stabil sehingga sesuai dengan incubator. Lalu pada lcd akan menampilkan suhu dan kelembaban suhu yang ada pada incubator.
 
 ## KESIMPULAN
 Berdasarkan uraian diatas, dapat kita simpulkan bahwa :
