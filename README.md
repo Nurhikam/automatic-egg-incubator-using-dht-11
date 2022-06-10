@@ -28,6 +28,7 @@ Setiap elemen pada sensor DHT11 dirancang secara ketat dan akurat pada kalibrasi
 ![Gambar Sensor DHT11](https://user-images.githubusercontent.com/92198564/172817137-b307f74d-293f-49ac-abcf-f7740653f4aa.png)
 
 
+
 ### Spesifikasi sensor DHT 11:
 #### Suhu
 
